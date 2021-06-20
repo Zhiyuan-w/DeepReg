@@ -71,7 +71,6 @@ export PATH=/share/apps/cuda-10.1/bin:/share/apps/gcc-8.3/bin:$PATH   # path for
 export LD_LIBRARY_PATH=/share/apps/cuda-10.1/lib64:/share/apps/gcc-8.3/lib64:$LD_LIBRARY_PATH   # path for cuda, gcc
 
 deepreg_train \
---gpu \
 --config_path config/unpaired_labeled_ddf.yaml \
 --log_dir test
 ```
